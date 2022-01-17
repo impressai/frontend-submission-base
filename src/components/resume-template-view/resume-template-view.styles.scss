@@ -1,0 +1,16 @@
+.template-wrapper{
+    border: 1px solid black;
+    padding: 3%;
+    .first-section{
+        border-bottom:1px solid black ;
+    }
+    .left-section{
+        border-right: 1px solid black;
+    }
+    .skill-set{
+        padding-left: 6%;
+    }
+    .company-details{
+        font-weight: bold;
+    }
+}

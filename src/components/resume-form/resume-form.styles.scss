@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+
+.resume-form{
+    .page-heading{
+       font-size: $font-size-large;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    .group {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 2%;
+          flex-direction: column;
+          label {
+            font-size: $font-size-standard;
+            font-weight: bold;
+            span{
+                font-weight: normal;
+                text-align: left;
+            }
+          }
+    input{
+        width: 20vw;
+    }
+    .text-area-input{
+        width: 20vw;
+    }
+    &.multiselect{
+        label{
+            margin-top: 2%;
+        }
+    }
+  
+    .multiselect-container{
+        width: 20vw;
+    }
+}
+.info-wrapper{
+    width: 75%;
+    border: 1px solid black;
+    padding-left: 4%;
+}
+.add-more-info{
+cursor:pointer;
+font-weight: bold;
+color: $link-color;
+}
+.invalid{
+    color: red;
+}
+
+}
